@@ -11568,14 +11568,14 @@ textarea {
 .tabs-container .tab-nav {
   list-style-type: none;
   padding-left: 0;
-  margin-right: 15px;
+  margin-right: 25px;
   margin-bottom: 0;
-  width: 120px;
+  width: 200px;
 }
 
 .tabs-container .tab-nav .item .link {
   display: block;
-  width: 60px;
+  width: 120px;
   height: 60px;
   margin: 5px auto;
   border-radius: 0.17rem;
@@ -11635,7 +11635,7 @@ img.tower {
     margin-right: 40px !important;
   }
   .tab-nav .link {
-    width: 80px !important;
+    width: 160px !important;
     height: 80px !important;
     line-height: 80px !important;
     font-size: 15px !important;
@@ -11647,7 +11647,7 @@ img.tower {
     margin-right: 60px !important;
   }
   .tab-nav .link {
-    width: 90px !important;
+    width: 160px !important;
     height: 90px !important;
     line-height: 90px !important;
   }

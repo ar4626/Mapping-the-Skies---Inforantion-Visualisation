@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="assets/css/rubic.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" >
-<!-- <nav id="scrollspy" class="navbar page-navbar navbar-dark navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
+<nav id="scrollspy" class="navbar page-navbar navbar-dark navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20" style="background-color:#232425 ;">
         <div class="container">
             <a class="navbar-brand" href=""><strong class="text-primary">MAPPING THE SKIES</strong><span class="text-light"> - INDIGO<img src="tail.png" height="40px"></span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,33 +30,33 @@
                 </ul>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
-    <section class="section1" id="features">
+    <section class="section1" id="features" style="margin-top:100px ;">
         <div class="container text-center">
             <br>
-            <h6 class="display-4 has-line">MAPPING THE SKIES </h6>
-            <p class="mb-5 pb-4">A Data Driven look at Indigo's daily & direct Airline routes.</p>   
-            <div class="row justify-content-center" style="margin-top: -50px;">
+            <h6 class="display-4 has-line">Mapping The skies : Data Visualization of Indigo Airlines </h6>
+            <p class="mb-5 pb-4">A Data Driven look at Indigo's daily & direct  Domestic Flight Routes at the Busiest Airports in India.</p>   
+            <div class="row justify-content-center" style="overflow:hidden" >
                 <video loop width="1400" height="650" controls>
                     <source src="FINAL_IV.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                  </video> 
+                </video> 
             </div>     
         
             <br>
             <br>
             <br>
-            <!-- <div> 
-                <a href="https://github.com/ar4626/18CSE301J_RA2011032010020/tree/d3d469541c4b9d2d2a8b5caf4382c9bc92db7a9e/Tableua%20-%20Netflix%20Analysis" >
+            <div> 
+                <a href="https://github.com/ar4626/Mapping-the-Skies---Information-Visualisation.git" >
                     <button class="btn btn-outline-light btn-flat" h>EXPLORE GITHUB</button>
                 </a>
-            </div> -->
+            </div>
             <br>
         </div>
         
     </section>
-    <!-- <section id="about">
+    <section id="about">
         <div class="container">
             <div class="container text-center">
                 <br>
@@ -68,34 +68,49 @@
                     <div class="tabs-container">
                         <ul class="nav tab-nav" id="pills-tab">
                             <li class="item">
-                                <a class="link active" id="pills-home-tab" data-toggle="pill" href="#tableua"aria-selected="true">Tabelua</a>
+                                <a class="link active" id="pills-home-tab" data-toggle="pill" href="#tableua"aria-selected="true">Project Overview</a>
                             </li>
                             <li class="item">
-                                <a class="link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"aria-selected="false">D3</a>
+                                <a class="link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"aria-selected="false">Technologies Used</a>
                             </li>
                             <li class="item">
-                                <a class="link" id="pills-contact-tab" data-toggle="pill" href="#collab"aria-selected="false">Python</a>
+                                <a class="link" id="pills-contact-tab" data-toggle="pill" href="#collab"aria-selected="false">Future Improvements</a>
                             </li>
                             <li class="item">
-                                <a class="link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"aria-selected="false">Gephi</a>
+                                <a class="link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"aria-selected="false">Results</a>
                             </li>
                         </ul>
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="tableua">
-                                <h4 class="title">NETFLIX - ANALYSIS</h4>
-                                <p>The Tableau project analyzed Netflix's performance by examining subscriber numbers, revenue, and content offerings, including TV shows, movies, and ratings. The data was represented in various types of charts and maps, including bar charts, line charts, heat maps, and geographic maps. These visualizations helped to present the data in an easy-to-understand format and allowed for the identification of trends and patterns in the data.</p>
-                                <p>By using a variety of visualizations, the Tableau project was able to provide a comprehensive analysis of Netflix's performance, highlighting key insights and trends that helped the company make data-driven decisions about its business strategies.</p>                           
+                                <h4 class="title">Mapping Skies - Overview</h4>
+                                <p>The project provides an interesting insight into the domestic flight operations of Indigo Airlines in India. The top 25 busiest airports in India, where Indigo Airlines operates, are used as the base of the analysis. The use of Python libraries such as mpl_toolkits.basemap, matplotlib.pyplot, and pandas enables efficient data handling and visualization.</p>
+                                <p>The visualization is designed to showcase the hourly takeoff trends of Indigo Airlines flights in each of the 24 slots in a day. The use of a moving bar chart provides an effective way to represent the number of flights taking off in each hour. The project also leverages Flourish Studio platform to add an extra layer of visualization to the project. Overall, the project is a great example of how data visualization can be used to analyze complex datasets and provide actionable insights.</p>                           
                             </div>
                             <div class="tab-pane fade" id="pills-profile">
-                                <h4 class="title">Netflix Analysis</h4>
-                                <p>The D3 project analyzed Netflix's performance by examining subscriber numbers, revenue, and content offerings, such as TV shows, movies, and ratings. The data was loaded into D3 and represented in various types of charts, such as bar charts, line chart and Donut chart, which helped to present the data in an easy-to-understand format.</p>
-                                <p>These visualizations allowed for the identification of trends and patterns in the data, enabling the project to provide a comprehensive analysis of Netflix's performance. </p>
-
+                                <h4 class="title">Technology Used</h4>
+                                <ul style="list-style-type: none; margin-top: 30px;">
+                                    <li >Python 3.0+</li>
+                                    <li>mpl_toolkits.basemap</li>
+                                    <li>matplotlib.pyplot</li>
+                                    <li>matplotlib.animation</li>
+                                    <li>pandas</li>
+                                    <li>numpy</li>
+                                    <li>Flourish Studio</li>
+                                </ul>
                             </div>
                             <div class="tab-pane fade" id="collab">
-                                <h4 class="title">Sales Analysis </h4>
-                                <p>The sales analysis in Python using pandas and matplotlib involved analyzing a company's sales data to identify trends, patterns, and insights that could be used to make data-driven business decisions. The analysis was conducted using two popular data science libraries in Python: pandas and matplotlib.</p>
-                                <p>The resulting charts and graphs provided valuable insights into sales trends and patterns, including changes over time, comparisons across different regions or products, and relationships between variables such as sales volume and price. By leveraging the power of data science, this sales analysis helped to drive data-driven decisions and support business growth.</p>                       
+                                <h4 class="title">Some future improvements to this project include: </h4>
+                                <p style=" margin-top: 30px; text-align: left;">Adding an interactive feature to the visualization that allows users to filter and sort the data according to their preferences.</p>
+                                <p style=" text-align: left;">Adding more airlines to the visualization to show a comparison of flight routes.</p>                       
+                                <p style=" text-align: left;">Improving the design and layout of the visualization to make it more visually appealing and user-friendly.</p>                       
+                                <p style=" text-align: left;">The project can be extended to include time-series analysis to track the changes in flight operations over a period of time. This would allow for a deeper understanding of the trends and patterns in the data and help in predicting future trends.</p>                       
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact">
+                                <h4 class="title">Lets see what we achieved throughout Journey</h4>
+                                <p>This project presents a data visualization of Indigo Airlines' domestic flight routes at the top 25 busiest airports in India. The moving bar chart displays the number of flights taking off in each hour of a day, and the airlines flying in those time periods are mapped using Python.</p>
+                                <p>The aim of this visualization is to provide insights into the daily flight routes of IndiGo airlines, including which routes are most frequently served, which airports are most frequently used, and the distribution of flight routes across different regions of India. This information can be beneficial for both IndiGo airlines, in optimizing flight schedules and improving efficiency and profitability, and for travelers, in planning their journeys and selecting the most convenient and cost-effective routes.</p>                       
+                                <!-- <p style=" text-align: left;">Improving the design and layout of the visualization to make it more visually appealing and user-friendly.</p>                       
+                                <p style=" text-align: left;">The project can be extended to include time-series analysis to track the changes in flight operations over a period of time. This would allow for a deeper understanding of the trends and patterns in the data and help in predicting future trends.</p>                        -->
                             </div>
                         </div>
                     </div>
@@ -105,11 +120,11 @@
                 </div>
             </div>                  
         </div> 
-    </section> -->
+    </section>
 
-    <!-- <footer class="footer py-4 bg-dark text-light"> 
+    <footer class="footer py-4 bg-dark text-light"> 
         <div class="container text-center">
-            <p class="mb-4 small">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href=""> ar2646</a></p>
+            <p class="mb-4 small">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="">Mapping Skies</a></p>
             <div class="social-links">
                 <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
                 <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
@@ -119,7 +134,7 @@
                 <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
             </div>
         </div>
-    </footer> -->
+    </footer>
 	
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
