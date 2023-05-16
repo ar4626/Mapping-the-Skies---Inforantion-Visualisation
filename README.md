@@ -1,4 +1,4 @@
-# Mapping The skies : Data Visualization of Indigo Airlines' Domestic Flight Routes at the Busiest Airports in India
+# Mapping The skies : Data Visualization of Indigo Airlines Flight Routes in India
 
 
 ## Project Overview<br />
